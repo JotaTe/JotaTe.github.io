@@ -117,7 +117,7 @@ navbar-toggle:hover {
     margin-top: 100px;
     margin-left: 15px;    
     position: relative;
-    top: 16px;
+    top: 17px;
 }
 .home-paragraph {
     line-height: 1.8em;
@@ -222,16 +222,17 @@ figcaption h3 {
 }
 
 figcaption p {
-    padding: 10px 20px;
+    /*padding: 10px 20px;
     margin-bottom: 0;
     position: relative;
     /*left: 100%;*/
-    font-size: 13px;
+    /*font-size: 13px;
     -webkit-transition: all .4s ease;
     -moz-transition: all .4s ease;
     -o-transition: all .4s ease;
     -ms-transition: all .4s ease;
-    transition: all .4s ease;
+    transition: all .4s ease;*/
+    display:none;
 }
 
 figure:hover h3,figure:hover p {
@@ -256,6 +257,20 @@ figcaption a:hover {
 @media (min-width: 768px) {
     .joe-image {
         width: 200px;
+    }
+
+    figcaption p {
+        display: block;
+        padding: 10px 20px;
+        margin-bottom: 0;
+        position: relative;
+        /*left: 100%;*/
+        font-size: 13px;
+        -webkit-transition: all .4s ease;
+        -moz-transition: all .4s ease;
+        -o-transition: all .4s ease;
+        -ms-transition: all .4s ease;
+        transition: all .4s ease;
     }
     figcaption h3 {
         text-transform: uppercase;
