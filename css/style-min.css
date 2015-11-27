@@ -248,7 +248,7 @@ figcaption a {
 
 figcaption a:hover {
     color: #4db748;
-    /*background: #fff;*/
+    background: #fff;
     text-decoration: none;
     border: 2px solid #4db748;
 }
