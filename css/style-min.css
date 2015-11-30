@@ -15,6 +15,12 @@ a:hover {
     text-decoration: underline;
     color: #4db748;
 }
+.job_title {
+    font-weight: 700;
+}
+.row_bottom {
+    margin-bottom: 2em;
+}
 div.resume .bold {
     font-weight: 700;
 }
@@ -122,6 +128,19 @@ navbar-toggle:hover {
 .home-paragraph {
     line-height: 1.8em;
 }
+.bottom-logo {
+    position:absolute;
+    bottom:0;
+    right:1em;
+}
+.bottom-fixed {
+    position:fixed;
+    bottom: 0;
+    background-color: #fff;
+    text-align:right;
+    box-shadow: 0 -4px 3px rgba(120,120,120,.15), 0 1px 3px rgba(0,0,0,.075);
+    height:21px;
+}
 a.contact-link {
     border: 1px solid #777;
     color: #777;
@@ -136,9 +155,9 @@ a.contact-link:hover {
     border: 1px solid #4db748;
     color: #4db748;
     text-decoration: none;
-    -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
-    -moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
-    box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 2px 1px rgba(0,0,0,0.2);
 }
 a.contact-link.gmail {
     padding-left: 84px;
