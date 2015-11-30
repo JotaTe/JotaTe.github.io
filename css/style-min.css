@@ -68,11 +68,11 @@ nav.sticky.navbar ul.nav.navbar-nav li a:hover {
     opacity: 1;
     background-color: #000;
     background:
-    url('../assets/images/background_top_2.png') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    url('../assets/images/background_top.png') no-repeat center center;
+    -webkit-background-size: 100%;
+    -moz-background-size: c100%;
+    -o-background-size: 100%;
+    background-size: 100%;
     max-height: 250px;
 }
 .top-logo {
