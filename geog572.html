@@ -4,20 +4,44 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <meta name="keywords" content="maps, cartography"/>
-<title>Joseph Tavano - Contact</title>
+<title>Joseph Tavano - GEOG 572 Final Project</title>
+<style>
+body {
+    background-color: #000;
+}
+.openseadragon
+{
+    width: 100%;
+    min-height: 600px;
+    height: 100vh;
+    border: 1px solid black;
+    color: #333;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+.openseadragon:focus {
+    border: 1px solid #000;
+    outline: none;
+}
+div {
+    outline: none;
+}
+</style>
 </head>
 <body>
 <!--put your external script links here-->
 <script type="text/javascript" src="lib/openseadragon.min.js"></script>
-<div class="openseadragon">
-        <script type="text/javascript">
-            OpenSeadragon({
-                id:            "example-inline-configuration-for-image",
-                prefixUrl:     "/openseadragon/images/",
-                tileSources:   {
-                    type: 'image',
-                    url:  'assets/images/testpng.png'
-                }
+<div id="final-project" class="openseadragon">
+    <script type="text/javascript">
+        OpenSeadragon({
+            id:            "final-project",
+            prefixUrl:     "openseadragon/images/",
+            tileSources:   {
+                 type: 'image',
+                 url:  'assets/images/TavanoFinalProject.png'
+            },
+            showNavigator: true,
             });
         </script>
 </div>
