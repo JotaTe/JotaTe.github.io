@@ -13,7 +13,7 @@ body {
 {
     width: 100%;
     min-height: 600px;
-    height: 100vh;
+    height: 94vh;
     border: 1px solid black;
     color: #333;
     background-color: #000;
@@ -27,19 +27,24 @@ body {
 div {
     outline: none;
 }
+.logo-image {
+    height: 6vh;
+}
 </style>
 </head>
 <body>
-<!--put your external script links here-->
 <script type="text/javascript" src="lib/openseadragon.min.js"></script>
+<div>
+<a class="navbar-brand" href="http://jotate.github.io/portfolio.html" title="Back to Portfolio"><img src="assets/images/logo_white.png" id="top-logo" class="logo-image" /></a>
+</div>
 <div id="final-project" class="openseadragon">
     <script type="text/javascript">
         OpenSeadragon({
-            id:            "final-project",
-            prefixUrl:     "openseadragon/images/",
-            tileSources:   {
+            id: "final-project",
+            prefixUrl: "openseadragon/images/",
+            tileSources: {
                  type: 'image',
-                 url:  'assets/images/TavanoFinalProject2.png'
+                 url: 'assets/images/TavanoFinalProject2.png'
             },
             showNavigator: true,
         });
