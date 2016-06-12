@@ -193,12 +193,13 @@ figure img {
     max-width: 100%;
     height: auto;
 }
-figure:hover figcaption {
+
+/*figure:hover figcaption {
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
     filter: alpha(opacity=100);
     opacity: 1;
     top: 0;
-}
+}*/
 
 figcaption {
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
@@ -254,9 +255,9 @@ figcaption p {
     display:none;
 }
 
-figure:hover h3,figure:hover p {
+/*figure:hover h3,figure:hover p {
     left: 0;
-}
+}*/
 
 figcaption a {
     color: #fff;
@@ -265,12 +266,12 @@ figcaption a {
     text-decoration: none;
 }
 
-figcaption a:hover {
+/*figcaption a:hover {
     color: #4db748;
     background: #fff;
     text-decoration: none;
     border: 2px solid #4db748;
-}
+}*/
 
 /* Min width for 768px */
 @media (min-width: 768px) {
