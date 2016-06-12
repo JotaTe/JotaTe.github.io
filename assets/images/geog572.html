@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<meta name="keywords" content="maps, cartography"/>
+<title>Joseph Tavano - GEOG 572 Final Project</title>
+<style type="text/css">
+body {
+    background-color: #000;
+}
+.openseadragon
+{
+    width: 100%;
+    min-height: 600px;
+    height: 94vh;
+    border: 1px solid black;
+    color: #333;
+    background-color: #000;
+    margin-left: auto;
+    margin-right: auto;
+}
+.openseadragon:focus {
+    border: 1px solid #000;
+    outline: none;
+}
+div {
+    outline: none;
+}
+.logo-image {
+    height: 6vh;
+}
+</style>
+</head>
+<body>
+<script type="text/javascript" src="lib/openseadragon.min.js"></script>
+<div>
+<a class="navbar-brand" href="http://jotate.github.io/portfolio.html" title="Back to Portfolio"><img src="assets/images/logo_white.png" id="top-logo" class="logo-image" /></a>
+</div>
+<div id="final-project" class="openseadragon">
+    <script type="text/javascript">
+        OpenSeadragon({
+            id: "final-project",
+            prefixUrl: "openseadragon/images/",
+            tileSources: {
+                 type: 'image',
+                 url: 'assets/images/TavanoFinalProject2.png'
+            },
+            showNavigator: true,
+        });
+    </script>
+</div>
+</body>
+</html>

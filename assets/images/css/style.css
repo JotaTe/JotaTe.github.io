@@ -1,0 +1,336 @@
+body {
+    font-family: 'Roboto', serif;
+}
+h1 {
+    color: #4db748;
+    padding-left: 1em;
+}
+a {
+    color: #4db748;
+}
+a:hover {
+    text-decoration: underline;
+    color: #4db748;
+}
+.pad-2 figure {
+    border: 2px solid #777;
+}
+.page-header-large {
+    display: block;
+    color: #fff;
+    font-size: 5.5em;
+    /*text-transform: uppercase;*/
+    margin-top: 150px;
+    margin-left: 15px;    
+    position: relative;
+    top: 25px;
+}
+#navbar {
+	position: relative;
+}
+ul.navbar-nav {
+    position: absolute; 
+    bottom: 0; 
+    right: 8px;
+    margin-bottom: 5px;
+}
+ul.nav.navbar-nav {
+    color: #fff;
+}
+ul.nav.navbar-nav li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+ul.nav.navbar-nav li a:hover {
+    color: #4db748;
+}
+.navbar-default {
+	background-color: transparent;
+	background-image: none;
+	border: none;
+}
+nav.navbar {
+	transition: all 0.4s ease;
+	max-height: 120px;
+}
+.navbar-brand {
+	height: 95px;
+	padding: 10px 1px;
+}
+nav.sticky.navbar {
+	background-color: #fff;
+	transition: all 0.4s ease;
+}
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+nav.sticky.navbar-default {
+    box-shadow: 0 5px 5px rgba(120,120,120,.2), 0 1px 5px rgba(0,0,0,.075);
+}
+nav.sticky.navbar .navbar-brand {
+	color: #458b00;
+	transition: all 0.4s ease;
+}
+
+nav.sticky.navbar ul.nav.navbar-nav li a {
+	color: #777;
+    text-transform: uppercase;S
+}
+nav.sticky.navbar ul.nav.navbar-nav li a:hover {
+	color: #4db758;
+}
+.wrapper{
+	opacity: 1;
+	background-color: #000;
+	background:
+	url('../assets/images/background_top.png') no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	max-height: 500px;
+}
+.top-logo {
+	background: url('../assets/images/logo_2.png') top left;
+	width: 3rem;
+}
+.brand-image {
+	height: 75px;
+}
+.logo-nav{display:block;width:100%;}
+.logo-nav img{width:400px;max-width:100%}
+/* Green: 02d713*/
+.navbar-default .navbar-toggle {
+	color: #fff;
+}
+figure {
+    margin: 0;
+    padding: 0;
+    height: 300px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+    overflow: hidden;
+    border: 3px solid #fff;
+}
+figure img {
+        display: block;
+    /*min-width: 100%;*/
+    max-width: 100%;
+    height: auto;
+}
+figure:hover figcaption {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    filter: alpha(opacity=100);
+    opacity: 1;
+    top: 0;
+}
+
+figcaption {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    filter: alpha(opacity=0);
+    /*opacity: 0;*/
+    opacity: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 250px;
+    background: rgba(0,0,0,.7);
+    color: #fff;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .2s ease;
+    -webkit-transition-delay: .2s;
+    -moz-transition-delay: .2s;
+    -o-transition-delay: .2s;
+    -ms-transition-delay: .2s;
+    transition-delay: .2s;
+}
+
+figcaption h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 10px 20px;
+    margin-bottom: 0;
+    position: relative;
+   /* right: 100%;
+    margin-top: 37px;*/
+    /*font-size: 30px;*/
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+figcaption p {
+    padding: 10px 20px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    position: relative;
+    /*left: 100%;*/
+    font-size: 13px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+figure:hover h3,figure:hover p {
+    left: 0;
+}
+
+figcaption a {
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 4px 10px;
+    text-decoration: none;
+}
+
+figcaption a:hover {
+    color: #4f5856;
+    background: #fff;
+}
+/*
+ * Caption component
+ */
+.caption {
+    position: relative;
+    overflow: hidden;
+
+    /* Only the -webkit- prefix is required these days */
+    -webkit-transform: translateZ(0);
+            transform: translateZ(0);
+}
+
+.caption::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: transparent;
+    transition: background .35s ease-out;
+}
+
+.caption:hover::before {
+    background: rgba(0, 0, 0, .5);
+}
+
+.caption__media {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption__overlay {
+    position: absolute;
+    top: 200px;
+    right: 0;
+    bottom: 50px;
+    left: 0;
+    /*padding: 10px;*/
+    color: white;
+    height: 500px;
+    overflow: hidden;
+    -webkit-transform: translateY(50%);
+            transform: translateY(50%);
+
+    transition: -webkit-transform .35s ease-out;
+
+    transition:         transform .35s ease-out;
+}
+
+.caption:hover .caption__overlay {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+.caption__overlay__content {
+    background: rgba(0, 0, 0, .25);
+}
+
+.caption__overlay__title {
+    -webkit-transform: translateY( -webkit-calc(-100% - 10px) );
+            transform: translateY( calc(-100% - 50px) );
+
+    transition: -webkit-transform .35s ease-out;
+    transition:         transform .35s ease-out;
+    background: rgba(0, 0, 0, .05);
+}
+.caption__overlay__title h1 {
+    margin: 0;
+}
+
+.caption:hover .caption__overlay__title {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+}
+.pad-2 {
+    padding: 2em;
+}
+.border-1-dark {
+    border: 1px solid #000;
+}
+
+@media (max-width: 767px) {
+	.brand-image {
+		height: 50px;
+	}
+	.navbar-brand {
+	    height: 70px;
+	    padding: 10px 1px;
+	}
+	nav.sticky.navbar-default .navbar-toggle {
+	     transition: all 0.4s ease;
+  	     border-color: #4db578;
+  	     color: #4db578;
+    }
+    ul.navbar-nav {
+        position: static; 
+        background-color: #fff;
+    }
+	navbar-toggle:hover {
+		color: #4db578;
+    }
+    .page-header-large {
+        display: block;
+        color: #fff;
+        font-size: 2em;
+        /*text-transform: uppercase;*/
+        margin-top: 150px;
+        margin-left: 15px;    
+        position: relative;
+        top: 8px;
+    }
+}
+@media (max-width: 992px) {
+    .page-header-large {
+        display: block;
+        color: #fff;
+        font-size: 4em;
+        /*text-transform: uppercase;*/
+        margin-top: 150px;
+        margin-left: 15px;    
+        position: relative;
+        top: 20px;
+    }
+}
+@media (max-width: 400px) {
+    .page-header-large {
+        display: block;
+        color: #fff;
+        font-size: 1em;
+        /*text-transform: uppercase;*/
+        margin-top: 150px;
+        margin-left: 15px;    
+        position: relative;
+        top: 20px;
+    }
+}
