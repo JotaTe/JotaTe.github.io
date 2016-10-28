@@ -1,0 +1,301 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+	body {
+	  /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font-size: 13px;
+	  font-weight: normal;
+	  line-height: 18px;
+	  margin: 0;
+	  padding: 0;
+	  width: 100%;*/
+	}
+	/* Map */
+	#mapid {
+	  background-color: #FFF;
+	  width: auto;
+	  height:330px;
+	  z-index: 6;
+	  cursor: default;
+	  top: 0;
+	}
+
+	/* Legend */
+	#legend {
+		padding: 0px 2%;
+		z-index: 7;
+		top: 0;
+		background-color: #EEE;
+		height:430px;
+	}
+
+	#json_one_results {
+		font-weight: bold;
+		font-size: 20px;
+	}
+	/* Geocoder */
+	.geocoder {
+	  width: 100%;
+	  /*font-size: 17px;
+	  margin: 5px 0px 10px 0px;*/
+	  padding: 0;
+	  vertical-align: middle;
+	}
+	select {
+	width: 220px;
+		background-color: #ffffff;
+		border: 1px solid #cccccc;
+		display: inline-block;
+		/*padding: 4px 6px;*/
+		margin-bottom: 10px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #555555;
+		vertical-align: middle;
+		/*-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;*/
+	}
+	.geocoder .geocodify {
+	  width: 80%;
+	  border: 1px solid #cccccc;
+	  margin-bottom: 0px;
+	  /*font-size: 17px;*/
+	  padding: 2px;
+	  /*padding-top: 12px;
+	  padding-bottom: 12px;
+	  padding-left: 2%;
+	  padding-right: 2%;
+	  border-radius: 4px 0 0 4px;*/
+	  border-right: 0;
+	}
+
+	.geocoder .geocodifyButton {
+	  width: 10%;
+	  min-height: 20px;
+	  display: -moz-inline-stack;
+	  display: inline-block;
+	  padding-top: 12px;
+	  padding-bottom: 12px;
+	  padding-left: 2%;
+	  padding-right: 2%;
+	  border: 1px solid #ccc;
+	  border-radius: 0 4px 4px 0;
+	  color: #333;
+	  *display: inline;
+	  _height: 20px;
+	}
+
+	.geocoder .geocodify-dropdown {
+	  margin: 0;
+	  background-color: #fff;
+	  border: 1px solid #ccc;
+	  border-top-color: #d9d9d9;
+	
+	  z-index: 9003;
+	  /*-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  -ms-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  -o-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+	}
+
+	.geocoder .geocodify-dropdown ul {
+	  margin: 0 !important;
+	  padding: 0 !important;
+	}
+
+	.geocoder .geocodify-dropdown li {
+	  cursor: pointer;
+	  display: block;
+	  font-family: inherit;
+	  font-size: 100%;
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 5px 0 5px 8px;
+	  text-align: left;
+	}
+
+	.geocoder .selected {
+	  background-color: #2262cc;
+	  background-repeat: repeat-x;
+	  color: #fff;
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+	  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+	  background-image: -webkit-gradient(linear, 0 0, 0 100, from(#0088cc), to(#0077b3));
+	  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+	  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+	  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+	}
+	.legend {
+		line-height: 18px;
+		color: #555;
+		background-color: #fff;
+
+	}
+	.legend i {
+		width: 100px;
+		height: 100px;
+		float: left;
+		margin-right: 8px;
+		opacity: 0.7;
+	}
+	#hospital_results {
+		height: 200px;
+		overflow-y: scroll;
+		font-size: .8em;}
+
+			html, body, {
+			 
+			}
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+	body {
+	  /*font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	  font-size: 13px;
+	  font-weight: normal;
+	  line-height: 18px;
+	  margin: 0;
+	  padding: 0;
+	  width: 100%;*/
+	}
+	/* Map */
+	#mapid {
+	  background-color: #FFF;
+	  width: auto;
+	  height:800px;
+	  z-index: 6;
+	  cursor: default;
+	  top: 0;
+	}
+
+	/* Legend */
+	#legend {
+		padding: 0px 2%;
+		z-index: 7;
+		top: 0;
+		background-color: #EEE;
+		height:800px;
+	}
+
+	#json_one_results {
+		font-weight: bold;
+		font-size: 20px;
+	}
+	/* Geocoder */
+	.geocoder {
+	  width: 100%;
+	  /*font-size: 17px;
+	  margin: 5px 0px 10px 0px;*/
+	  padding: 0;
+	  vertical-align: middle;
+	}
+	select {
+	width: 220px;
+		background-color: #ffffff;
+		border: 1px solid #cccccc;
+		display: inline-block;
+		/*padding: 4px 6px;*/
+		margin-bottom: 10px;
+		font-size: 14px;
+		line-height: 20px;
+		color: #555555;
+		vertical-align: middle;
+		/*-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;*/
+	}
+	.geocoder .geocodify {
+	  width: 80%;
+	  border: 1px solid #cccccc;
+	  margin-bottom: 0px;
+	  /*font-size: 17px;*/
+	  padding: 2px;
+	  /*padding-top: 12px;
+	  padding-bottom: 12px;
+	  padding-left: 2%;
+	  padding-right: 2%;
+	  border-radius: 4px 0 0 4px;*/
+	  border-right: 0;
+	}
+
+	.geocoder .geocodifyButton {
+	  width: 10%;
+	  min-height: 20px;
+	  display: -moz-inline-stack;
+	  display: inline-block;
+	  padding-top: 12px;
+	  padding-bottom: 12px;
+	  padding-left: 2%;
+	  padding-right: 2%;
+	  border: 1px solid #ccc;
+	  border-radius: 0 4px 4px 0;
+	  color: #333;
+	  *display: inline;
+	  _height: 20px;
+	}
+
+	.geocoder .geocodify-dropdown {
+	  margin: 0;
+	  background-color: #fff;
+	  border: 1px solid #ccc;
+	  border-top-color: #d9d9d9;
+
+	  z-index: 9003;
+	  /*-webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  -ms-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  -o-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+	  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);*/
+	}
+
+	.geocoder .geocodify-dropdown ul {
+	  margin: 0 !important;
+	  padding: 0 !important;
+	}
+
+	.geocoder .geocodify-dropdown li {
+	  cursor: pointer;
+	  display: block;
+	  font-family: inherit;
+	  font-size: 100%;
+	  list-style-type: none;
+	  margin: 0;
+	  padding: 5px 0 5px 8px;
+	  text-align: left;
+	}
+
+	.geocoder .selected {
+	  background-color: #2262cc;
+	  background-repeat: repeat-x;
+	  color: #fff;
+	  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0077b3', GradientType=0);
+	  background-image: -moz-linear-gradient(top, #0088cc, #0077b3);
+	  background-image: -webkit-gradient(linear, 0 0, 0 100, from(#0088cc), to(#0077b3));
+	  background-image: -webkit-linear-gradient(top, #0088cc, #0077b3);
+	  background-image: -o-linear-gradient(top, #0088cc, #0077b3);
+	  background-image: linear-gradient(to bottom, #0088cc, #0077b3);
+	}
+	.legend {
+		line-height: 18px;
+		color: #555;
+		background-color: #fff;
+
+	}
+	.legend i {
+		width: 100px;
+		height: 100px;
+		float: left;
+		margin-right: 8px;
+		opacity: 0.7;
+	}
+	#hospital_results {
+		height: 550px;
+		overflow-y: scroll;
+		font-size: .8em;}	
+}
+ /* Large devices (large desktops, 1200px and up) 
+@media (min-width: @screen-lg-min) { ... }*/
+ 
+/* Map */
