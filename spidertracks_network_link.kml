@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="yes"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <name><![CDATA[<b>Demonstration of <br>multiple data files <br>on one map</b>]]></name>
+    <Folder>
+      <NetworkLink>
+        <Link>
+          <href>https://jotate.github.com/FR_GIS_DISPATCH_GROUP_AR_VAR.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink>
+        <Link>
+          <href>https://jotate.github.io/FR_GIS_FRU_AR_VAR_LayerToKML1.kmz</href>
+        </Link>
+      </NetworkLink>
+    </Folder>
+  </Document>
+</kml>
+
+
